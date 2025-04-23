@@ -38,4 +38,6 @@ a.Pcg only (only count for the amount of the sequences for the protein code and 
 Script used:
 - [pcg_all_count.sh](Project1/pcg_all_count.sh)
 - [pcg_blood_count.sh](Project1/pcg_blood_count.sh)
-- [pcg_fat_count.sh]
+- [pcg_fat_count.sh](Project1/pcg_fat_count.sh)
+
+

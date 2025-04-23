@@ -15,3 +15,27 @@ conda install bioconda::trim-galore
 Use the following script to trim the above data: 
 - [trim.sh script](Project1/trim.sh)
 
+3.Align to reference genome
+Use bowtie2-build to create bowtie index for mapping. Use bowtie2 package to do this. Install into Conda environment using:
+conda install bioconda::bowtie2
+Script used: 
+- [bowtie_index.sh script](Project1/bowtie_index.sh)
+
+4.Use bowtie2 to map each of the above trimmed fastq files onto the T.brucei genome and create a gzip compressed SAM file as output.
+Use the following script:
+- [bloodmapped.sh](Project1/bloodmapped.sh)
+- [fatmapped.sh](Project1/fatmapped.sh)
+- [allmapped.sh](Project1/allmapped.sh)
+- [groupmapped.sh](Project1/groupmapped.sh)
+
+5.Read visualization
+Install the GUI-based genome viewer IGV and use it to view the distribution of mapped reads for one or more samples in chromosome 1 (Tb927_01_v5.1)
+6. Read counts
+Use htseq-count to count the number of reads mapped to each gene in the genome. This is done using the htseq package. Install into a Conda environment using:
+conda install bioconda::htseq
+
+a.Pcg only (only count for the amount of the sequences for the protein code and genes)
+Script used:
+- [pcg_all_count.sh](Project1/pcg_all_count.sh)
+- [pcg_blood_count.sh](Project1/pcg_blood_count.sh)
+- [pcg_fat_count.sh]

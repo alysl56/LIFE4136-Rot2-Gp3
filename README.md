@@ -54,7 +54,7 @@ Scripts used:
 The dataset was loaded into R using the sample table and DESeq2, and samples that should be excluded were further analyzed.
 - [rot2script](Project1/rot2script) used - [Counts1](Project1/Counts1) and showed that Blood6 was an outlier.
 
-Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cused Counts2.txt (doesn't include Blood6) and that produced the .tsv files we used for gene ontology analysis
+Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cused - [Counts2](Project1/Counts2) (doesn't include Blood6) and that produced the .tsv files we used for gene ontology analysis
 
 
 

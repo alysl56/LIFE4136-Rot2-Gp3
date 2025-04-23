@@ -70,4 +70,4 @@ Scripts used:
 - [alignment1.sh](Project2/alignment1.sh)
 
 3.Use DESeq2 to analyse differential expression between your conditions
-We used - [part2_averaged](Project%202/part2_averaged) R script which used the - [averaged1](Project%202/averaged1) file. This produced the .tsv files which we used for gene ontology analysis
+We used - [part2_averaged.R](Project%202/part2_averaged.R) script which used the - [averaged1](Project%202/averaged1) file. This produced the .tsv files which we used for gene ontology analysis

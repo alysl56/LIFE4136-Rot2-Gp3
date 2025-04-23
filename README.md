@@ -56,5 +56,10 @@ The dataset was loaded into R using the sample table and DESeq2, and samples tha
 
 Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cused - [Counts2](Project1/Counts2) (doesn't include Blood6) and that produced the .tsv files we used for gene ontology analysis
 
-
-
+## Project2
+## Introduction
+By analyzing RNA-Seq data from different types of human cancer in public databases, we can identify genes that are significantly differentially expressed under different biological conditions. This study will compare cancer cells from men and women.
+## Methods
+1.Build a STAR index for the genome
+Scripts used:
+- [STARindex.sh](Project1/STARindex.sh)

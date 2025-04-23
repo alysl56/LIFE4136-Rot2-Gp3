@@ -60,10 +60,14 @@ Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cus
 ## Introduction
 By analyzing RNA-Seq data from different types of human cancer in public databases, we can identify genes that are significantly differentially expressed under different biological conditions. This study will compare cancer cells from men and women.
 ## Methods
-1.Build a STAR index for the genome
+1.Build a STAR index for the genome. Use the star package. Install into the Conda environment using:
+conda install bioconda::star
 Scripts used:
 - [STARindex.sh](Project2/STARindex.sh)
 
 2.Align each sample to the genome index
 Scripts used:
-- [alignment1.sh](Project2/alignment1.sh
+- [alignment1.sh](Project2/alignment1.sh)
+
+3.Use DESeq2 to analyse differential expression between your conditions
+We used - [part2_averaged](Project%202/part2_averaged) R script which used the - [averaged1](Project%202/averaged1) file. This produced the .tsv files which we used for gene ontology analysis

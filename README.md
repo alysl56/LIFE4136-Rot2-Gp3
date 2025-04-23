@@ -31,7 +31,8 @@ Use the following script:
 5.Read visualization
 Install the GUI-based genome viewer IGV and use it to view the distribution of mapped reads for one or more samples in chromosome 1 (Tb927_01_v5.1)
 6. Read counts
-Use htseq-count to count the number of reads mapped to each gene in the genome. This is done using the htseq package. Install into a Conda environment using:
+Use htseq-count to count the number of reads mapped to each gene in the genome. This is done using the htseq-count(v0.11.2)
+ package. Install into a Conda environment using:
 conda install bioconda::htseq
 
 a.Pcg only (only count for the amount of the sequences for the protein code and genes)
@@ -51,7 +52,8 @@ Scripts used:
 - [fat_ind_count.sh](Project1/fat_ind_count.sh)
 
 7. Find sample outliers
-The dataset was loaded into R using the sample table and DESeq2, and samples that should be excluded were further analyzed.
+The dataset was loaded into R using the sample table and DESeq2 (v1.34.0)
+, and samples that should be excluded were further analyzed.
 - [rot2script](Project1/rot2script) used - [Counts1](Project1/Counts1) and showed that Blood6 was an outlier.
 
 Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cused - [Counts2](Project1/Counts2) (doesn't include Blood6) and that produced the .tsv files we used for gene ontology analysis
@@ -60,7 +62,8 @@ Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cus
 ## Introduction
 By analyzing RNA-Seq data from different types of human cancer in public databases, we can identify genes that are significantly differentially expressed under different biological conditions. This study will compare cancer cells from men and women.
 ## Methods
-1.Build a STAR index for the genome. Use the star package. Install into the Conda environment using:
+1.Build a STAR index for the genome. Use the star(v2.7.9a)
+ package. Install into the Conda environment using:
 conda install bioconda::star
 Scripts used:
 - [STARindex.sh](Project2/STARindex.sh)

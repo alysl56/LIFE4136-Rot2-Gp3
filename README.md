@@ -40,4 +40,21 @@ Script used:
 - [pcg_blood_count.sh](Project1/pcg_blood_count.sh)
 - [pcg_fat_count.sh](Project1/pcg_fat_count.sh)
 
+b.Count the reads mapped to each gene in the genome using htseq-count
+Scripts used:
+- [htseq-count_blood.sh](Project1/htseq-count_blood.sh)
+- [htseq-count_fat.sh](Project1/htseq-count_fat.sh)
+
+c.individualpcg_counts
+Scripts used:
+- [blood_ind_count.sh](Project1/blood_ind_count.sh)
+- [fat_ind_count.sh](Project1/fat_ind_count.sh)
+
+7. Find sample outliers
+The dataset was loaded into R using the sample table and DESeq2, and samples that should be excluded were further analyzed.
+- [rot2script](Project1/rot2script) used - [Counts1](Project1/Counts1) and showed that Blood6 was an outlier.
+
+Therefore, we used - [rot2script_notb6.R](Project1/rot2script_notb6.R) which cused Counts2.txt (doesn't include Blood6) and that produced the .tsv files we used for gene ontology analysis
+
+
 

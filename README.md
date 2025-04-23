@@ -12,5 +12,6 @@ conda install bioconda::fastqc
 2.Trim reads
 Use trim_galore to properly trim the above dataset (remove adapter sequences and trim low-quality reads) for mapping. The trimming process is performed using the trim-galore package. Install it into the Conda environment using the following method:
 conda install bioconda::trim-galore
-Use the following script to trim the above data: - [trim.sh script]![image](https://github.com/user-attachments/assets/1ed37d01-db86-468d-b43c-3a16395b6d86)
+Use the following script to trim the above data: 
+- [trim.sh script](Project1/trim.sh)
 

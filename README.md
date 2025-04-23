@@ -63,3 +63,7 @@ By analyzing RNA-Seq data from different types of human cancer in public databas
 1.Build a STAR index for the genome
 Scripts used:
 - [STARindex.sh](Project2/STARindex.sh)
+
+2.Align each sample to the genome index
+Scripts used:
+- [alignment1.sh](Project2/alignment1.sh

@@ -74,3 +74,6 @@ Scripts used:
 
 3.Use DESeq2 to analyse differential expression between your conditions
 We used - [part2_averaged.R](Project2/part2_averaged.R) script which used the - [averaged1.txt](Project2/averaged1.txt) file. This produced the .tsv files which we used for gene ontology analysis
+
+## Contributors
+All scripts and analysis were completed jointly with Josh and Quayyum Abdullahi, thank you both!!
